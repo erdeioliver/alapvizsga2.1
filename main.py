@@ -25,11 +25,8 @@ Add meg a vizsgázó nevét!
 -----
 '''
 def sikeres(vizsga):
-    if vizsga >= 48:
-        return True
-    else:
-        return False
-
+    return vizsga >= 48
+    
 while True:
     nev = input("Add meg a vizsgázó nevét! ")
     if nev == "":
